@@ -1,7 +1,7 @@
 # 🏥💰 Medical Insurance Charges Analysis & Prediction
 This project focuses on performing data analytics and predictive modeling on a medical insurance cost dataset. The main objective is to analyze how personal attributes like age, BMI, smoking habits, and region influence insurance charges, and to develop regression models to predict these charges.
 
-# Project Objectives
+## Project Objectives
 Load the data as a Pandas DataFrame.
 
 Clean the dataset and handle any missing or blank entries.
@@ -18,7 +18,7 @@ Apply Ridge Regression to refine model performance and reduce overfitting.
 
 
 
-# Dataset Description
+## Dataset Description
 
 | **Parameter**      | **Description**                                 | **Content Type**                       |
 |--------------------|-------------------------------------------------|----------------------------------------|
@@ -30,7 +30,7 @@ Apply Ridge Regression to refine model performance and reduce overfitting.
 | `region`            | US Region (NW, NE, SW, SE)                      | Integer (1: NW, 2: NE, 3: SW, 4: SE)   |
 | `charges`           | Annual Insurance Charges in USD (Target Column) | Float                                  |
 
-# Technologies Used
+## Technologies Used
 Python
 
 Pandas & NumPy → Data Manipulation
@@ -42,7 +42,7 @@ Scikit-learn → Machine Learning Models (Linear & Ridge Regression)
 Jupyter Notebook
 
 
-# Project Structure
+## Project Structure
 ├── data/
 
 │   └── medical_insurance_dataset.csv
@@ -56,14 +56,14 @@ Jupyter Notebook
 └── requirements.txt
 
 
-#  Expected Outcomes
+##  Expected Outcomes
 Identify key factors such as smoking habits and BMI that strongly influence insurance costs.
 
 Build predictive regression models for estimating charges based on user attributes.
 
 Demonstrate how Ridge Regression helps mitigate overfitting and enhances model generalization.
 
-#  Insurance Charge Prediction for New Individuals
+##  Insurance Charge Prediction for New Individuals
 As an additional step, the trained Polynomial Ridge Regression model was used to estimate insurance charges for new, unseen individuals.
 This demonstrates the model's ability to generalize predictions based on real-world scenarios.
 
@@ -79,18 +79,18 @@ Example Predictions:
 This extension showcases the model's practical use in predicting individual insurance costs based on personal health and lifestyle factors.
 
 
-#  License
+##  License
 This project is for educational purposes only and uses a dataset under the CC0 1.0 Universal (Public Domain Dedication) License.
 
 
-#  Useful Links
+##  Useful Links
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Dataset Source](https://www.kaggle.com/)
 - [Ridge Regression Explanation (scikit-learn)](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
 - [PolynomialFeatures Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
 
-#  Summary
+##  Summary
 This project provides a practical understanding of how health-related factors influence medical insurance charges. It walks through real-world data cleaning, visualization, model building, and regularization techniques to build robust predictive models.
 
 
