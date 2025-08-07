@@ -82,8 +82,6 @@ This extension showcases the model's practical use in predicting individual insu
 #  License
 This project is for educational purposes only and uses a dataset under the CC0 1.0 Universal (Public Domain Dedication) License.
 
-#  Summary
-This project provides a practical understanding of how health-related factors influence medical insurance charges. It walks through real-world data cleaning, visualization, model building, and regularization techniques to build robust predictive models.
 
 #  Useful Links
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
@@ -92,6 +90,7 @@ This project provides a practical understanding of how health-related factors in
 - [Ridge Regression Explanation (scikit-learn)](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
 - [PolynomialFeatures Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
 
-
+#  Summary
+This project provides a practical understanding of how health-related factors influence medical insurance charges. It walks through real-world data cleaning, visualization, model building, and regularization techniques to build robust predictive models.
 
 
