@@ -63,6 +63,22 @@ Build predictive regression models for estimating charges based on user attribut
 
 Demonstrate how Ridge Regression helps mitigate overfitting and enhances model generalization.
 
+#  Insurance Charge Prediction for New Individuals
+As an additional step, the trained Polynomial Ridge Regression model was used to estimate insurance charges for new, unseen individuals.
+This demonstrates the model's ability to generalize predictions based on real-world scenarios.
+
+Example Predictions:
+
+| Person | Age | Gender | BMI  | Children | Smoker | Region    | Predicted Charge |
+| ------ | --- | ------ | ---- | -------- | ------ | --------- | ---------------- |
+| 1      | 25  | Male   | 28.0 | 0        | No     | Southwest | \$3758.35        |
+| 2      | 52  | Female | 32.5 | 2        | Yes    | Northwest | \$39728.76       |
+| 3      | 43  | Male   | 30.1 | 1        | No     | Northeast | \$9180.83        |
+
+
+This extension showcases the model's practical use in predicting individual insurance costs based on personal health and lifestyle factors.
+
+
 #  License
 This project is for educational purposes only and uses a dataset under the CC0 1.0 Universal (Public Domain Dedication) License.
 
@@ -73,6 +89,9 @@ This project provides a practical understanding of how health-related factors in
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Dataset Source](https://www.kaggle.com/)
+- [Ridge Regression Explanation (scikit-learn)](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
+- [PolynomialFeatures Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+
 
 
 
